@@ -5,15 +5,15 @@ using namespace std;
 
 int main() {
 	IOS;
-	int a, b;
+	int n, m;
 
-	while (cin >> a >> b) {
-		int t = ceil(log10(a) / log10(b));
+	while (cin >> n >> m) {
+		int t = ceil(log10(n) / log10(m));
 
-		if (t > 0 && a == ceil(pow(b, t))) {
-			while (a != 1) {
-				cout << a << " ";
-				a /= b;
+		if (t > 0 && n == ceil(pow(m, t))) {
+			while (n != 1) {
+				cout << n << " ";
+				n /= m;
 			}
 			cout << "1";
 		}
