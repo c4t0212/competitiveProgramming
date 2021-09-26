@@ -10,18 +10,18 @@ ostream& operator<<(ostream& os, vector<int> v) {
 
 int main() {
 	IOS;
-	int a, b;
+	int n, m;
 	vector<int> nums;
 
-	while (cin >> a >> b) {
+	while (cin >> n >> m) {
 		nums.clear();
 
-		while (a != 0 && b != 0 && b != 1 && a % b == 0) {
-			nums.emplace_back(a);
-			a /= b;
+		while (n != 0 && m != 0 && m != 1 && n % m == 0) {
+			nums.emplace_back(n);
+			n /= m;
 		}
 
-		if (!nums.empty() && nums.back() == b)
+		if (!nums.empty() && nums.back() == m)
 			cout << nums << "1\n";
 		else
 			cout << "Boring!\n";
