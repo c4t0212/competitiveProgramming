@@ -26,6 +26,11 @@ NOTE:
 ##### 先來介紹一下float浮點數的結構
   
   ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/10190/image.png)
-  ###### 圖片來源[wiki](https://zh.wikipedia.org/wiki/%E5%96%AE%E7%B2%BE%E5%BA%A6%E6%B5%AE%E9%BB%9E%E6%95%B8)
+  ###### 圖片來源[wiki](https://zh.wikipedia.org/wiki/%E5%96%AE%E7%B2%BE%E5%BA%A6%E6%B5%AE%E9%BB%9E%E6%95%B8)  
     
-  
+  單精度浮點數主要分成三個區塊，共32bits  
+  1. 正負區  
+
+  2. 指數區  
+
+  3. 小數區
