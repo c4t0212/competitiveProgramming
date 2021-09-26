@@ -8,7 +8,9 @@
 * sol-2:  
   使用log的特性來解(以10為底)  
   ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/10190/pic.png)  
-  先把次方算出來，再使用次方去比對原來的N是不是一樣的(因為int會忽略小數)，
+  先把次方算出來，再使用次方去比對原來的N是不是一樣的(因為int會忽略小數)，如果一樣則代表N是M的某個次方，則可以進行達二輸出，不一樣則輸出Boring!  
+    
+  但
 
 NOTE:
   * `0 <= N、M <= 2000000000`
