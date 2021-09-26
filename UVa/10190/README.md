@@ -4,6 +4,10 @@
 
 * sol-1:  
   慢慢檢查，小心`除數和被除數為0`的狀況跟`除數為1`的狀況，若整除則塞進陣列，反之跳出迴圈，輸出時檢查陣列是否為空和最後一個數是否為M就好
+  
+* sol-2:  
+  使用log的特性來解(以10為底)  
+  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/10190/pic.png)
 
 NOTE:
   * `0 <= N、M <= 2000000000`
