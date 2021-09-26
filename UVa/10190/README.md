@@ -7,7 +7,8 @@
   
 * sol-2:  
   使用log的特性來解(以10為底)  
-  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/10190/pic.png)
+  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/10190/pic.png)  
+  > 晚點解釋line 13 的t > 0
 
 NOTE:
   * `0 <= N、M <= 2000000000`
