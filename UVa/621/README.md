@@ -9,3 +9,8 @@
 
 * *(failed experiment)  
   if 字串s 開頭為9，最後為4
+
+* ?(experiment not completed)
+   if 字串s 開頭為190  
+   
+直接跟著敘述操作即可
