@@ -1,1 +1,4 @@
-# [UVa 12640](https://vjudge.net/problem/UVA-12640)
+# [UVa 12640](https://vjudge.net/problem/UVA-12640)  
+
+給你幾行，每行有不定個數字，以空白分割，請輸出每行最大連續整數和，若為負數則輸出0  
+
