@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-	IOS;
+    IOS;
     int n, ct;
     
     while(cin >> n && n){
