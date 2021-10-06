@@ -17,6 +17,5 @@ int main(){
         }
         
         cout << "The parity of "<< s << " is " << ct << " (mod 2).\n";
-
     }
 }
