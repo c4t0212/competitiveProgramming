@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-	IOS;
 	int h, n, cs;
 	cin >> cs;
 
