@@ -1,5 +1,3 @@
-#pragma GCC optimize("O3")
-#define IOS ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -9,7 +7,6 @@ ostream& operator<<(ostream& os, vector<int> v) {
 }
 
 int main() {
-	IOS;
 	int n, m;
 	vector<int> nums;
 
