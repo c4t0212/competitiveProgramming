@@ -17,7 +17,7 @@ int main() {
 			}
 			else if (s == "too high") up = min(up, n);
 			else if (s == "too low") lw = max(lw, n);
-		}
+		} 
 
 		if (n == 0) break;
 	}
