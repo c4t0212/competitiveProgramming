@@ -12,7 +12,7 @@ int main(){
 		for(auto &i : vt) cin >> i;
 
 		while(!st.count(vt)){
-      bp = vt, cal = 0;
+                        bp = vt, cal = 0;
 			st.insert(vt);
 			
 			for(int i = 0; i < n; i++){
