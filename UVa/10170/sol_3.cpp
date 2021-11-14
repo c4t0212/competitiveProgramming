@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	long long s, d, ans;
+	long long s, d;
 
 	while(cin >> s >> d){
 		long long L = 0, R = sqrt(LLONG_MAX) / 2, mid;
