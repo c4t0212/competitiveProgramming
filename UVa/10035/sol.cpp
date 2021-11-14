@@ -6,7 +6,7 @@ int main(){
 	
 	while(cin >> a >> b && a + b){
 		ans = last = 0;
-		while(a || b){
+		while(a + b){
 			last = a % 10 + b % 10 + (last > 9);
 			a /= 10, b /= 10;
 			ans += (last > 9);
