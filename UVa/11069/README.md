@@ -6,5 +6,4 @@
 
 * sol:  
   一個簡單dp,想一下就能推導出狀態轉移關係式
-  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/11069/image.png)
-  
+  <img src="https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/11069/image.png" width="50%"/>
