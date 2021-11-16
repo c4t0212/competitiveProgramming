@@ -8,7 +8,7 @@
 * sol-2:  
   使用log的特性來解(以10為底)  
     
-  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/10190/pic.png)  
+  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/101/10190/pic.png)  
     
   先把次方算出來，再使用次方去比對原來的N是不是一樣的(因為int會忽略小數)，如果一樣則代表N剛好是M的某個次方，則可以進行答案輸出，不一樣則輸出Boring!  
     
@@ -25,7 +25,7 @@ NOTE:
 
 ##### 先來介紹一下float浮點數的結構
   
-  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/10190/image.png)
+  ![image](https://github.com/c4t0212/competitiveProgramming/blob/main/UVa/101/10190/image.png)
   ###### 圖片來源[wiki](https://zh.wikipedia.org/wiki/%E5%96%AE%E7%B2%BE%E5%BA%A6%E6%B5%AE%E9%BB%9E%E6%95%B8)  
     
   單精度浮點數主要分成三個區塊，共32bits  
