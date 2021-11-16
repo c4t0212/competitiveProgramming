@@ -6,7 +6,6 @@ using namespace std;
 struct trie {
 	bool tail = true;
 	trie* nxt[10] = { NULL };
-	map<int, trie*> mp;
 };
 
 int main() {
@@ -17,7 +16,7 @@ int main() {
 
 	while (cin >> n) {
 		bool ans = false;
-		trie *root = new trie, *cur = root;
+		trie* root = new trie, * cur = root;
 		for (int i = 0; i < n; i++) {
 			cin >> s;
 			cur = root;
