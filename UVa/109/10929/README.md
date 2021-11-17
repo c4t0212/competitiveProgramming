@@ -1,4 +1,4 @@
-# [UVa 10929] (https://vjudge.net/problem/UVA-10929)  
+# [UVa 10929](https://vjudge.net/problem/UVA-10929)  
 給一個不超過1000位的數字,請你判斷是否為11的倍數  
 
 * sol:  
