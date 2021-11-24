@@ -1,4 +1,4 @@
-# [UVa](https://vjudge.net/problem/UVA-902)  
+# [UVa 902](https://vjudge.net/problem/UVA-902)  
 給定一個字串和一個數字n, 求哪連續n個字的字串出現最多次  
 
 * sol:  
