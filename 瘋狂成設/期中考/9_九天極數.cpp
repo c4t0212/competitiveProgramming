@@ -7,5 +7,5 @@ int main(){
 		mx = max(mx, n);
 		mn = min(mn, n);
 	}
-	printf("%d\n%d\n", mx, mn);
+	cout << mx << '\n' << mn << '\n';
 }
