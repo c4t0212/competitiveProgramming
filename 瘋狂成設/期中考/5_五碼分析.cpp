@@ -1,6 +1,7 @@
 #include <iostream>
+using namespace std;
 int main(){
 	int n;
-	while(~scanf("%d", &n))
-		printf("%c", n);
+	while(cin >> n)
+		cout << (char) n;
 }
