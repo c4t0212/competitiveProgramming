@@ -6,6 +6,5 @@ int main(){
 	mn = min({a, b, c});
 	mx = max({a, b, c});
 	md = mn ^ a ^ b ^ c ^ mx;
-	
-	cout << mn << " " << md << " " << mx << '\n';
+	printf("%d %d %d\n", mn, md, mx);
 }
