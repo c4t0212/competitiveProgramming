@@ -12,5 +12,5 @@ int main(){
 		dd -= day[mm - 1], mm++;
 		if(mm == 13) mm = 1, yy++;
 	}
-	printf("%d %d %d\n", yy, mm, dd);
+	cout << yy << " " << mm << " " << dd << '\n';
 }
