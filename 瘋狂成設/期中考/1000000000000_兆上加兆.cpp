@@ -6,8 +6,8 @@ int main(){
 	string a, b, ans = "";
 	cin >> a >> b;
 	
-	if(a.size() < b.size()) a = string("0", b.size() - a.size()) + a;
-	else b = string("0", a.size() - b.size()) + b;
+	if(a.size() < b.size()) a = string(b.size() - a.size(), '0') + a;
+	else b = string(a.size() - b.size(), '0') + b;
 	
 	for(int i = 0; i < b.size(); i++){
 		tmp = a[a.size() - i - 1] + b[b.size() - i - 1] + carry - 96;
