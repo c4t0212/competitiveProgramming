@@ -8,10 +8,11 @@ int main(){
 	dd += 280;
 	
 	while(dd > day[mm - 1]) {
-		if(mm == 2 && ((yy % 400) || !(yy % 1000)) && (!(yy % 4))) dd--; 
 		dd -= day[mm - 1], mm++;
+		if(mm == 2 && ((yy % 400) || !(yy % 1000)) && (!(yy % 4))) dd--; 
 		if(mm == 13) mm = 1, yy++;
 	}
 	
+	dd += (mm == 2 && ((yy % 400) || !(yy % 1000)) && (!(yy % 4)));
 	printf("%d %d %d\n", yy, mm, dd);
 }
