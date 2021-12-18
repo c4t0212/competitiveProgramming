@@ -1,4 +1,4 @@
-# [UVa 10038] (https://vjudge.net/problem/UVA-10038)  
+# [UVa 10038](https://vjudge.net/problem/UVA-10038)  
 
 第一個數字給你陣列的大小N, 後面有N個數字, 若兩相鄰相減的絕對值可以組成1 ~ N-1的序列則輸出 Jolly, 反之則輸出Not jolly  
 
